@@ -10,10 +10,10 @@ import static io.restassured.RestAssured.given;
 import static utils.HashUtil.getHash;
 
 public class GETCharactersTestCase {
-  @Parameters({"apiKey","privateApiKey"})
+  @Parameters({"apiKey","privateApiKey", "baseUrl","characterEP"})//segue a ordem dos parametros na chamada da funcao abaixo
 
   @Test
-  public void getCharactersWithSuccess(String apiKey, String privateApiKey){
+  public void getCharactersWithSuccess(String apiKey, String privateApiKey, String baseUrl, String characterEP){
     Timestamp timeStamp = new Timestamp(System.currentTimeMillis());
     String timeStampStr = timeStamp.toString();
 
@@ -22,8 +22,8 @@ public class GETCharactersTestCase {
     String hash = getHash(md5Str);
 
     Response response = given().
-            baseUri("https://gateway.marvel.com/v1/public").
-            basePath("characters").
+            baseUri(baseUrl).
+            basePath(characterEP).
             param("ts", timeStampStr).
             param("apikey", "").
             param("hash", "").
