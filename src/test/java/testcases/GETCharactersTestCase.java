@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import java.sql.Timestamp;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static utils.HashUtil.getHash;
 
 public class GETCharactersTestCase {
@@ -21,15 +22,17 @@ public class GETCharactersTestCase {
 
     String hash = getHash(md5Str);
 
-    Response response = given().
+    given().
             baseUri(baseUrl).
             basePath(characterEP).
             param("ts", timeStampStr).
-            param("apikey", "").
-            param("hash", "").
+            param("apikey", apiKey).
+            param("hash", hash).
             param("name", "X-Men").
             when().
-            get();
+            get().
+            then().
+            assertThat().body(matchesJsonSchemaInClasspath("GET_v1_public_character_schema"));
 
   }
 

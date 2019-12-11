@@ -18,5 +18,10 @@
             <artifactId>rest-assured</artifactId>
             <version>4.1.2</version>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.1.2</version>
+        </dependency>
     </dependencies>
 </project>

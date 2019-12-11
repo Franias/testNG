@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98085f9-3f9d-43a1-849f-671ac048c0c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/GET_v1_public_characteres_schema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/GETCharactersTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/GETCharactersTestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
     </list>
@@ -46,13 +47,39 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sala312\IdeaProjects\marvel-api\src\test\resources" />
       <recent name="C:\Users\sala312\IdeaProjects\marvel-api\src" />
       <recent name="C:\Users\sala312\IdeaProjects\marvel-api\src\test\utils" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GETCharactersTestCase.getCharactersWithSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="marvel-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.GETCharactersTestCase" />
+      <option name="METHOD_NAME" value="getCharactersWithSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GETCharactersTestCase.getCharactersWithSuccess" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -76,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576090523294</updated>
-      <workItem from="1576090528813" duration="3299000" />
+      <workItem from="1576090528813" duration="4318000" />
     </task>
     <servers />
   </component>
@@ -88,10 +115,14 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="104" y="21" key="#Project_Structure/0.0.1024.728@0.0.1024.728" timestamp="1576090650050" />
-    <state x="13" y="5" key="SettingsEditor" timestamp="1576092580502">
+    <state x="13" y="5" key="SettingsEditor" timestamp="1576094914152">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="13" y="5" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1576092580502" />
+    <state x="13" y="5" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1576094914152" />
+    <state x="0" y="0" width="747" height="728" key="find.popup" timestamp="1576094621025">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="0" y="0" width="747" height="728" key="find.popup/0.0.1024.728@0.0.1024.728" timestamp="1576094621025" />
     <state x="175" y="49" key="search.everywhere.popup" timestamp="1576093374228">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
