@@ -32,7 +32,7 @@ public class GETCharactersTestCase {
             when().
             get().
             then().
-            assertThat().body(matchesJsonSchemaInClasspath("GET_v1_public_character_schema"));
+            assertThat().body(matchesJsonSchemaInClasspath("GET_v1_public_characters_schema.json"));
 
   }
 
