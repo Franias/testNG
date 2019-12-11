@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a98085f9-3f9d-43a1-849f-671ac048c0c5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UqiSEyKh36iBGzYZa4zslBMyB1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;JAVA" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sala312\IdeaProjects\marvel-api\src" />
+      <recent name="C:\Users\sala312\IdeaProjects\marvel-api\src\test\utils" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a98085f9-3f9d-43a1-849f-671ac048c0c5" name="Default Changelist" comment="" />
+      <created>1576090523294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576090523294</updated>
+      <workItem from="1576090528813" duration="3024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="21" key="#Project_Structure" timestamp="1576090650050">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="21" key="#Project_Structure/0.0.1024.728@0.0.1024.728" timestamp="1576090650050" />
+    <state x="13" y="5" key="SettingsEditor" timestamp="1576092580502">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="13" y="5" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1576092580502" />
+    <state x="175" y="49" key="search.everywhere.popup" timestamp="1576093374228">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="175" y="49" key="search.everywhere.popup/0.0.1024.728@0.0.1024.728" timestamp="1576093374228" />
+  </component>
+</project>
